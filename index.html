@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S Engineering</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="S.png" alt="S Engineering Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#services">Machining</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Sliding Images -->
+    <section class="hero">
+        <div class="slider">
+            <div class="slide active">
+                <img src="images/02.jpg" alt="Company Building">
+            </div>
+            <div class="slide">
+                <img src="images/05_.jpg" alt="Product Image">
+            </div>
+            <div class="slide">
+                <img src="images/1.JPG" alt="Manufacturing Process">
+            </div>
+            
+
+            <!-- Arrows for navigation -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="hero-text">
+            <h1>Welcome to S Engineering</h1>
+            <p>Manufacturing Excellence Since 1987</p>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>
+                    Established in 1987, S Engineering is a leading manufacturer of electrical motor shafts and pump shafts. 
+                    Under the expert guidance of Mr. Abdul Rahiman Imam Shaikh, we’ve earned a reputation for delivering precision-engineered 
+                    products with reliable performance. Our ISO 9001:2008 certification from MOODY INTERNATIONAL, U.K., underscores our commitment
+                     to quality. We also offer CNC machining with cylindrical grinding and keyway facilities, ensuring that we meet our clients’ 
+                     needs with efficiency and excellence.
+                </p>
+    
+                <h3>Our Vision</h3>
+                <p>
+                    To be a global leader in precision-engineered motor and pump shafts, known for quality and innovation.
+                </p>
+    
+                <h3>Our Mission</h3>
+                <p>
+                    To deliver high-quality products that meet our clients' needs.<br>
+                    To build lasting relationships through exceptional service and timely delivery.<br>
+                    To foster innovation and teamwork within our organization.
+                </p>
+            </div>
+            <div class="about-images">
+                <img src="images/04_.jpg" alt="Manufacturing Process 1">
+                <img src="images/05.jpg" alt="Manufacturing Process 2">
+                <img src="images/15_.jpg" alt="Manufacturing Process 3">
+            </div>
+        </div>
+    </section>
+
+    <!--========== SERVICES ==========-->
+    <section class="services section bd-container" id="services" style="max-width: 1500px; margin: 0 auto; background-color: #2e2e2e; padding: 20px; border-radius: 8px;">
+
+        <h2 class="section-title" style="width: 100%; text-align: center; margin-bottom: 20px; font-size: 36px; color: #007bff;">Operations</h2>
+    
+        <div class="section_container" style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-start; gap: 20px; max-width: 1000px; margin: 0 auto;">
+    
+            <div class="services_items" style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); flex: 1 1 30%; max-width: 300px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 15px rgba(0, 0, 0, 0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 10px rgba(0, 0, 0, 0.1)';">
+                <img src="images/09_.jpg" alt="Turning" style="max-width: 100%; height: auto; margin-bottom: 10px; transition: transform 0.3s ease;" />
+                <div class="services_text">
+                    <h3 style="margin-bottom: 10px;">Turning</h3>
+                    <p style="margin: 0;">Precision machining of motor and pump shafts using CNC technology for accurate dimensions.</p>
+                </div>
+            </div>
+    
+            <div class="services_items" style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); flex: 1 1 30%; max-width: 300px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 15px rgba(0, 0, 0, 0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 10px rgba(0, 0, 0, 0.1)';">
+                <img src="images/11_.jpg" alt="Key-Way" style="max-width: 100%; height: auto; margin-bottom: 10px; transition: transform 0.3s ease;" />
+                <div class="services_text">
+                    <h3 style="margin-bottom: 10px;">Key-Way</h3>
+                    <p style="margin: 0;">Specialized keyway cutting on shafts to ensure secure fitting and reliable performance.</p>
+                </div>
+            </div>
+    
+            <div class="services_items" style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); flex: 1 1 30%; max-width: 300px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 15px rgba(0, 0, 0, 0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 10px rgba(0, 0, 0, 0.1)';">
+                <img src="images/12_.jpg" alt="Grinding" style="max-width: 100%; height: auto; margin-bottom: 10px; transition: transform 0.3s ease;" />
+                <div class="services_text">
+                    <h3 style="margin-bottom: 10px;">Grinding</h3>
+                    <p style="margin: 0;">High-precision cylindrical grinding for smooth finishes and tight tolerances on shaft surfaces.</p>
+                </div>
+            </div>
+    
+            <div class="services_items" style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); flex: 1 1 30%; max-width: 300px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 15px rgba(0, 0, 0, 0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 10px rgba(0, 0, 0, 0.1)';">
+                <img src="images/13_.jpg" alt="Impeller for Water Pump" style="max-width: 100%; height: auto; margin-bottom: 10px; transition: transform 0.3s ease;" />
+                <div class="services_text">
+                    <h3 style="margin-bottom: 10px;">Impeller for Water Pump</h3>
+                    <p style="margin: 0;">Expertly manufactured and machined impellers for efficient water pump performance.</p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+    <section class="gallery section bd-container" id="gallery" style="max-width: 1000px; margin: 0 auto;">
+        <h2 class="section-title" style="width: 100%; text-align: center; margin-bottom: 20px; font-size: 36px; color: #007bff;">Gallery</h2>
+    
+        <div class="gallery_container" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
+            <div class="gallery_item" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); position: relative; overflow: hidden; border-radius: 8px;">
+                <img src="images/02__1_.jpg" alt="Company Image 1" style="width: 100%; height: auto; display: block;">
+                <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: opacity 0.3s ease;">
+                    <p style="color: #fff; text-align: center; margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 18px;">Company Image 1</p>
+                </div>
+            </div>
+    
+            <div class="gallery_item" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); position: relative; overflow: hidden; border-radius: 8px;">
+                <img src="images/05.jpg" alt="Company Image 2" style="width: 100%; height: auto; display: block;">
+                <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: opacity 0.3s ease;">
+                    <p style="color: #fff; text-align: center; margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 18px;">Company Image 2</p>
+                </div>
+            </div>
+    
+            <div class="gallery_item" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); position: relative; overflow: hidden; border-radius: 8px;">
+                <img src="images/04.jpg" alt="Company Image 3" style="width: 100%; height: auto; display: block;">
+                <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: opacity 0.3s ease;">
+                    <p style="color: #fff; text-align: center; margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 18px;">Company Image 3</p>
+                </div>
+            </div>
+
+            <div class="gallery_item" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); position: relative; overflow: hidden; border-radius: 8px;">
+                <img src="images/07_.jpg" alt="Company Image 3" style="width: 100%; height: auto; display: block;">
+                <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: opacity 0.3s ease;">
+                    <p style="color: #fff; text-align: center; margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 18px;">Company Image 3</p>
+                </div>
+            </div>
+
+            <div class="gallery_item" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); position: relative; overflow: hidden; border-radius: 8px;">
+                <img src="images/06_.jpg" alt="Company Image 3" style="width: 100%; height: auto; display: block;">
+                <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: opacity 0.3s ease;">
+                    <p style="color: #fff; text-align: center; margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 18px;">Company Image 3</p>
+                </div>
+            </div>
+
+            <div class="gallery_item" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); position: relative; overflow: hidden; border-radius: 8px;">
+                <img src="images/15_.jpg" alt="Company Image 3" style="width: 100%; height: auto; display: block;">
+                <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: opacity 0.3s ease;">
+                    <p style="color: #fff; text-align: center; margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 18px;">Company Image 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!--========== Contact Us ==========-->
+    <section class="contact section bd-container" id="contact">
+        <h2 class="section-title" style="width: 100%; text-align: center; margin-bottom: 20px; font-size: 36px; color: #007bff;">Contact Us </h2>
+
+        <div class="contact__container">
+            <div class="contact__info">
+                
+                <p><strong>S Engineering</strong><br>Manufacturing Excellence Since 1987<br>
+                    <p><strong>Address</strong><br>
+                        Solapur
+                    </p>   
+                <p><strong>Phone Numbers:</strong><br>
+                    +91-9527000003
+                </p>
+                <p><strong>Email:</strong><br>
+                    sengineering@gmail.com
+                </p>
+                
+            </div>
+            <div class="contact__form">
+                <h3>Enquiry Form</h3>
+                <form action="submit_form.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="tel" name="phone" placeholder="Enter Your Phone No" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <textarea name="message" placeholder="Enter Your Message" required></textarea>
+                    <div class="form-group" style="margin-bottom: 20px;">
+                        <label style="display: block; font-size: 16px; margin-bottom: 5px; color: #333;">Operations</label>
+                        <input type="checkbox" id="tvStation" name="activities[]" value="TV Station" style="margin-right: 5px;">
+                        <label for="tvStation" style="font-size: 16px; color: #333; margin-right: 15px;">Turning</label><br>
+                        <input type="checkbox" id="payTv" name="activities[]" value="Pay TV Platform" style="margin-right: 5px;">
+                        <label for="payTv" style="font-size: 16px; color: #333; margin-right: 15px;">Key-Way</label><br>
+                        <input type="checkbox" id="onlinePlatform" name="activities[]" value="Online Platform" style="margin-right: 5px;">
+                        <label for="onlinePlatform" style="font-size: 16px; color: #333;">Grinding</label>
+                    </div>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="contact__map">
+            <h3>Google Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.339482719319!2d73.97302671472157!3d18.60476468735742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c5fd7e1f5a3f%3A0x122ed3e40a1c4f11!2sLambodar%20Park%2C%20Plot%20No.%2094%2C%20Sidram%20Mala%2C%20Loni%20Kalbhor%2C%20Maharashtra%20412201!5e0!3m2!1sen!2sin!4v1690467464198!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    
+    
+
+    <!-- Footer Section -->
+            <!--========== FOOTER ==========-->
+            <footer class="footer section bd-container">
+                <div class="footer__container bd-grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">S Engineering</a>
+                        <span class="footer__description">Manufacturing Excellence Since 1987</span>
+                        <div>
+                            <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                            <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                            <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__content">
+                        <h3 class="footer__title">Machining</h3>
+                        <ul>
+                            <li><a href="#services" class="footer__link">Turning</a></li>
+                            
+                            <li><a href="#services" class="footer__link">Key-Way</a></li>
+                            <li><a href="#services" class="footer__link">Grinding</a></li>
+                            <li><a href="#services" class="footer__link">Impeller for Water Pump</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__content">
+                        <h3 class="footer__title">Information</h3>
+                        <ul>
+                            <li><a href="#about" class="footer__link">About Us</a></li>
+                            <li><a href="#contact" class="footer__link">Contact us</a></li>
+                            <li><a href="#" class="footer__link">Privacy policy</a></li>
+                            <li><a href="#" class="footer__link">Terms of services</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__content">
+                        <h3 class="footer__title">Address</h3>
+                        <ul> 
+                            <li>S ENGINEERING</li>
+                            <li>Mr.Aslam Rahiman Shaikh </li>
+                            <li>Solapur</li>
+                            <li>9527000003</li>
+                            <li>sengineering@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <p class="footer__copy">&#169; Crescent Techware Pvt Ltd. All right reserved</p>
+            </footer>
+
+    <!-- JavaScript for Slider -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
